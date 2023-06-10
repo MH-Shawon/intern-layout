@@ -1,11 +1,17 @@
+
+import Portfolio from "../Portfolio/Portfolio";
+import About from "./About/About";
 import Banner from "./Banner/Banner";
 
-// import React from 'react';
+
+
 const Home = () => {
     return (
         <div>
             <Banner></Banner>
-        </div>
+            <About></About>
+            <Portfolio></Portfolio>
+         </div>
     );
 };
 

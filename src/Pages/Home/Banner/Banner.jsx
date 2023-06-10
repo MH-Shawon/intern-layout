@@ -1,17 +1,22 @@
 // import React from 'react';
-import doctors from '../../../assets/images/doctor.png'
+import doctor  from '../../../assets/images/doctor-small.png'
+import appointment  from '../../../assets/images/appointment.png'
 const Banner = () => {
     return (
-        <div class="hero min-h-screen ">
-  <div class="hero-content flex-col lg:flex-row-reverse">
-    <img src={doctors} class="max-w-sm rounded-lg shadow-2xl" />
-    <div>
-      <h1 class="text-5xl font-bold">Box Office News!</h1>
-      
-      
-    </div>
+      <div style={{
+        background:`url(${appointment})`
+      }} className=" hero min-h-full rounded-xl ">
+      <div className="hero-content flex-col lg:flex-row-reverse ">
+          
+          <img src={doctor} className="max-w-sm rounded-lg shadow-2xl " />
+          
+          <div className='text-white'>
+              <h1 className="text-xl font-semibold pr-16"> I'M LUCY DOE </h1>
+              <h3 className='font-medium'>DENTIST</h3>
+              
+          </div>
+      </div>
   </div>
-</div>
     );
 };
 
