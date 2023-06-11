@@ -9,7 +9,7 @@ const About = () =>
 {
   return (
 
-    <section>
+    <section className='px-24'>
     <div className="hero min-h-max mt-8">
       <div className="hero-content flex-col lg:flex-row">
         <img src={doctor} className="max-w-sm rounded-lg shadow-2xl" />

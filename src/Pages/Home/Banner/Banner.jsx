@@ -5,7 +5,7 @@ const Banner = () => {
     return (
       <div style={{
         background:`url(${appointment})`
-      }} className=" hero min-h-full rounded-xl ">
+      }} className=" hero min-h-full  ">
       <div className="hero-content flex-col lg:flex-row-reverse ">
           
           <img src={doctor} className="max-w-sm rounded-lg shadow-2xl " />

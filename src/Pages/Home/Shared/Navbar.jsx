@@ -1,18 +1,20 @@
 import { Link } from "react-router-dom";
-
+import appointment  from '../../../assets/images/appointment.png'
 
 const Navbar = () =>
 {
     const navbarItems = <>
 
-        <li className="font-medium"><Link to='/'>Home</Link></li>
-        <li className="font-medium"><Link to='/about'>About</Link></li>
-        <li className="font-medium"><Link to='/portfolio'>Portfolio</Link></li>
-        <li className="font-medium"><Link to='/contact'>Contact</Link></li>
-        <li className="font-medium"><Link to='/buyrockstar'>Buy Rockstar</Link></li>
+        <li className=" text-xl"><Link to='/'>Home</Link></li>
+        <li className="text-xl "><Link to='/about'>About</Link></li>
+        <li className="text-xl "><Link to='/portfolio'>Portfolio</Link></li>
+        <li className="text-xl"><Link to='/contact'>Contact</Link></li>
+        <li className="text-xl"><Link to='/buyrockstar'>Buy Rockstar</Link></li>
     </>
     return (
-        <div  className="navbar">
+        <div style={{
+            background:`url(${appointment})`
+          }} className="navbar text-white">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex="0" className="btn btn-ghost lg:hidden">
@@ -22,7 +24,8 @@ const Navbar = () =>
                         {navbarItems}
                     </ul>
                 </div>
-                <a className="btn btn-ghost normal-case text-xl">Doctors Portal</a>
+                <Link className="text-4xl font-semibold" to='/'>Doctors Portal</Link>
+                
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal p-0">
