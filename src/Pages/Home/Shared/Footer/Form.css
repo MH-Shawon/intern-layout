@@ -1,0 +1,36 @@
+ .name-field{
+    /* width: 25em; */
+    outline: 0;
+    border: 0;
+    border-bottom: 1px solid #999999;
+    padding: px 0;
+    background: transparent;
+    font-size: 1.2em;
+    color: black;
+    transition: 0.3s ease;
+}
+.email{
+    /* width: 100%; */
+    outline: 0;
+    border: 0;
+    border-bottom: 1px solid #999999;
+    padding: 4px 0;
+    background: transparent;
+    font-size: 1.2em;
+    color: black;
+    transition: 0.3s ease;
+}
+
+    
+.msg{
+    width: 100%;
+    outline: 0;
+    border: 0;
+    border-bottom: 1px solid #999999;
+    padding: 4px 0;
+    padding-top: 75px;
+    background: transparent;
+    font-size: 1.2em;
+    color: black;
+    transition: 0.3s ease;
+}
