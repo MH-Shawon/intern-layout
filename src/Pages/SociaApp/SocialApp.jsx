@@ -6,10 +6,14 @@ const SocialApp = () => {
     
     return (
         <div className='space-x-2'>
-           <FacebookIcon></FacebookIcon>
-           <TwitterIcon></TwitterIcon> 
-           <InstagramIcon></InstagramIcon>
-            <GitHubIcon></GitHubIcon>
+            <a href="https://www.facebook.com/"><FacebookIcon></FacebookIcon></a>
+            <a href="https://twitter.com/"><TwitterIcon></TwitterIcon></a>
+            <a href="https://www.instagram.com/"><InstagramIcon></InstagramIcon></a>
+            <a href="https://github.com/"><GitHubIcon></GitHubIcon></a>
+           
+            
+           
+            
 		</div>
     );
 }

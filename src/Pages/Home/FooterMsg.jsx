@@ -1,4 +1,5 @@
 import SocialApp from "../SociaApp/SocialApp";
+
 import Form from "./Shared/Footer/Form";
 
 
@@ -8,7 +9,7 @@ const FooterMsg = () =>
 {
   return (
     <footer>
-      <section className="footer p-14 bg-base-200 px-24  text-base-content">
+      <section className="footer  bg-base-200 px-24  text-base-content">
 
         <div>
 
@@ -28,13 +29,12 @@ const FooterMsg = () =>
             <div className='pl-2'><SocialApp></SocialApp></div>
           </div>
         </div>
-
-
-       
-<Form></Form>
-
-      </section>
-      <div className=" px-24 text-end p-4 bg-base-300 text-base-content" >
+        
+        <div className="w-full">
+        <Form></Form>
+        </div>
+        </section>
+      <div className=" px-24 text-end p-4 mt-8 bg-base-300 text-base-content" >
         <p>© Rockstar 2023, Made with By Divergent Studio</p>
       </div>
     </ footer>
